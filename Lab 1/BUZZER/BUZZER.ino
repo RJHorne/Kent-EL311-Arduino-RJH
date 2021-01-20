@@ -15,7 +15,7 @@ int sensorValueMapped = 0;    // variable to store the mapped value of the senso
 void setup() 
 { 
     pinMode(ledPin2, OUTPUT);     // declare the LED2 as an output 
-    pinMode(buzzerValue, OUTPUT); //declare the Buzzer as an output
+    pinMode(buzzerPin, OUTPUT); //declare the Buzzer as an output
 }
 
 void loop() 
